@@ -1,0 +1,16 @@
+#Nicholas Pappas
+#nhpappas
+#CMPS 12M
+#7/20/16
+#lab4
+#
+# The only problem I've been experiencing is that isspace() is grabbing this '^M' as a blank
+# space. So the spaces counted is off by 2 and this '^M' character is printed as one of the
+# spaces. In the "vim out" view in the console this '^M' is dark blue. I'm assuming it's a
+# new line character or some sort of spacing. 
+# Anyways, everything else works fine. Program builds without errors.
+#
+#Submitted Files:
+#README
+#Makefile
+#charType.c

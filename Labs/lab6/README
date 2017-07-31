@@ -1,0 +1,30 @@
+#Nicholas Pappas
+#nhpappas
+#CMPS 12M
+#8/3/16
+#lab6
+#
+# My program will not compile because of a type errors. I think this is a
+# good indication that I am not going about this the correct way. Right now
+# the array contains nodes of generic type to hold the variables of generic
+# type. I tried it this way because when I tried to load just the generic
+# variables into a generic array declared: 
+#
+# public class List<T> implements ListInterface<T> {...
+# private T[] item;
+# item = new T[physicalSize]; ...} 
+# for both this and the node version I get an error: generic array creation
+#
+# So I don't understand how I'm supposed to make a list of generic type
+# items, with a working index, without an array of the same generic type.
+# I assume there is some bit of code somewhere that I am missing like a cast
+# or something that would solve this issue. 
+#
+#Submitted Files:
+#README
+#Makefile
+#List.java
+#ListTest.java
+#ListInterface.java
+#ListIndexOutOfBoundsException.java
+#ListClient.java
